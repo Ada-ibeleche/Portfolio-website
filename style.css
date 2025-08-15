@@ -1,5 +1,14 @@
 body {
   margin: 0px;
+  overflow-x: auto;
+}
+
+
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  width: 150vw;
+  box-sizing: border-box;
 }
 
 main {
@@ -12,13 +21,15 @@ main {
 
 
 h1 {
+  word-wrap: break-word;
+  max-width: 100%;
   text-align: left;
   font-family: "Bodoni Moda";
   margin: 0 auto;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-size: 50px;
+  font-size: 5vw;
   
 }
 h3 {
@@ -45,7 +56,9 @@ p {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  
+   width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 
 }
 
@@ -160,5 +173,18 @@ font-size: 20px;
 
 h3{
   font-size: 3em;
+}
+
+@media (max-width:600px) {
+.navbar {
+  flex-direction: column;
+
+}
+
+.container {
+  padding:10px;
+}
+
+
 }
 
