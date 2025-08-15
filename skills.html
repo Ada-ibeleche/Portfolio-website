@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="icon" type="image/JPG" href="images/Favicon.JPG" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+    rel="stylesheet"
+  />
+  <header>
+    <nav class="navbar">
+      <ul>
+        <h1>Adaeze</h1>
+        <p class="headline">Aspiring Software Developer</p>
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <h3>My Skills</h3>
+      <p>
+        I'm a self taught dedicated learner who is motivated to succeed.
+        Throughtout my university journery i've leveraged transferable skills as
+        well as developed my technical skills.
+      </p>
+
+      <button onclick="doSomething2()" id="button2" type="button">
+        <a href=""><h2>Technical Skills</h2></a>
+      </button>
+
+      <p id="skills"></p>
+
+      <script>
+        function doSomething2() {
+          document.getElementById("skills").innerHTML =
+            "Html, css,javscript,react";
+        }
+      </script>
+
+      <button onclick="doSomething()" id="button" type="button">
+        <a href=""><h2>Transferable Skills</h2></a>
+      </button>
+
+      <p id="tskills"></p>
+
+      <script>
+        function doSomething() {
+          document.getElementById("tskills").innerHTML =
+            "Excellent communication skills, customer service, team player,Organisation";
+        }
+      </script>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

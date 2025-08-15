@@ -1,0 +1,164 @@
+body {
+  margin: 0px;
+}
+
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+
+
+h1 {
+  text-align: left;
+  font-family: "Bodoni Moda";
+  margin: 0 auto;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 50px;
+  
+}
+h3 {
+  text-align: center;
+  font-family: "Bodoni Moda";
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+p {
+  text-align: center;
+  font-family: "Bodoni Moda";
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: rgb(245, 231, 220);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 30px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: rgb(214, 198, 198);
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a{
+  display: block;
+  padding: 1rem;
+  
+}
+
+
+
+
+img {
+  width: 200px;
+  align-content: center;
+}
+
+.image {
+  margin: 0px;
+}
+
+.icons{
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.fa-solid.fa-solid.fa-house {
+    color: rgb(87, 86, 76);
+}
+
+.fa-solid.fa-solid.fa-house:hover {
+    color: rgb(87, 86, 96);
+}
+
+
+.fa-brands.fa-x-twitter.fa-5x{
+    color: rgb(62, 238, 223);
+}
+.fa-brands.fa-x-twitter.fa-5x:hover{
+    color: rgb(68, 255, 239);
+}
+
+.fa-brands.fa-youtube.fa-5x{
+    color: rgb(231, 8, 8);
+}
+
+.fa-brands.fa-youtube.fa-5x:hover{
+    color: red;
+}
+
+
+.book{
+  text-align: up;
+}
+
+
+.form{
+  text-align: left;
+  font-size: 20px;
+}
+
+#button :hover{
+background-color: slateblue;
+
+}
+
+ul{
+  display;
+}
+
+.me{
+  display:block;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 12px;
+
+}
+
+@media screen (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+}
+
+.para{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+}
+
+h3{
+  font-size: 3em;
+}
+
